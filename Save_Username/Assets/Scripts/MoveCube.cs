@@ -38,6 +38,6 @@ public class MoveCube : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(1);//go to scene Minigame2  when green cube and the red blockers hit together 
+        SceneManager.LoadScene(2);//go to scene Minigame2  when green cube and the red blockers hit together 
     }
 }
